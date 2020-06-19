@@ -1,0 +1,959 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>COVID-19 Library Resources – Central Library |  Central University of Odisha</title>
+		<meta name="description" content="Collections of all free and open-access resources to support academic and research activities.">
+		<meta name="author" content="Central Library, Central University of Odisha">
+        <link rel="icon" type="image/png" href="http://library.cuo.ac.in/assets/images/favicon.ico"/>
+		<!-- Bootstrap v4.5-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/reveal.css">
+		<link rel="stylesheet" href="assets/css/theme/moon.css">
+		<link rel="stylesheet" href="assets/plugin/menu/menu.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="assets/lib/css/monokai.css">
+		<!-- Fontawesome Icons -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet">
+		<style>
+			[v-cloak] {
+			    display: none !important;
+			}
+			section .exlink:link {border-bottom: 1px solid #E91E63;}
+        	section .exlink:link, .exlink:visited {
+            color: #E91E63;
+            text-decoration: none;
+        	}
+            section img{border: none !important;}
+        	section button a{text-decoration: none; color:inherit !important;}
+        	section ul li{font-size:large; margin: 1em 0; list-style-type: inherit;}
+        	section .badge a{text-decoration: none; color:inherit !important;}
+        	section .covid19-stats {
+			    align-self: center;
+			    display: flex;
+			    flex-direction: row;
+			    justify-content: space-between;
+			}
+			section .covid19-stats .covid19-stats-item {
+			    display: flex;
+			    flex-direction: column;
+			    width: 25%;
+			}
+			section .covid19-stats .covid19-stats-item *{
+			    font-family: 'Poppins', sans-serif;
+			    font-weight: bold;
+			}
+			section .covid19-stats .covid19-stats-item h4{
+			    margin:0;
+			}
+			section .covid19-stats .is-confirmed *{
+				color:#ff073a;
+			}
+			section .covid19-stats .is-active *{
+				color:#007bff;
+			}
+			section .covid19-stats .is-recovered *{
+				color:#28a745;
+			}
+			section .covid19-stats .is-deceased *{
+				color:#6c757d;
+			}
+            section .alert .overflow-auto{height:45vh;}
+            section .aarogya-setu-container .item{width:50%; float: left; text-align: center;}
+            section .aarogya-setu-container .item p{margin: 0.7em;}
+            section .aarogya-setu-container .item img{width: 120px; margin: 0;}
+            .counterimg{position: absolute; right: 0; margin-right: 10px;}
+            .countertext{position: absolute; right: 0; font-weight: bold; margin-right: 35px;}
+		</style>
+	</head>
+	<body>
+        <p class="countertext" style="color:white; font-size: small">Total Visitor</p>
+        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=f3e9acfe4ce97363a3eeebc099497a9dea36a99c'></script>
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/705215/t/5"></script>
+		<div class="reveal">
+			<div class="slides">
+                
+				<!-- Main Content -->
+				<section id="home">
+					<div class="clcuo">
+						<img src="assets/images/logo.png" alt="CUO Logo" 
+						style="border: none; box-shadow: none; line-height: 1.0; width: 80px; margin: 0; background: initial;" />
+						<p class="display-4" style="margin:0; line-height: 1.0;">Central Library</p>
+						<p class="display-4" style="margin:0; line-height: 1.0;">Central University of Odisha</p>
+					</div>
+					<h2 class="display-3" style="margin: 0; margin-top: 1rem;">COVID-19 Library Resources</h2>
+					<small class="text-muted">
+						Don't let COVID-19 stop the learning...! Let's make this crisis into an opportunity!
+					</small>
+					<hr/>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+                                <a href="#/cuo-resources"><button type="button" class="btn btn-danger btn-lg"><i class="fas fa-university"></i> CUO</button></a>
+								<a href="#/e-journals"><button type="button" class="btn btn-primary btn-lg"><i class="fas fa-newspaper"></i> E-Journals</button></a>
+								<a href="#/e-books"><button type="button" class="btn btn-warning btn-lg"><i class="fas fa-book"></i> E-Books</button></a>
+								<a href="#/online-courseware"><button type="button" class="btn btn-success btn-lg"><i class="fas fa-globe-asia"></i> Courseware</button></a>
+								<a href="#/useful-tools"><button type="button" class="btn btn-info btn-lg"><i class="fas fa-tools"></i> Tools</button></a>
+								<a href="#/databases"><button type="button" class="btn btn-primary btn-lg"><i class="fas fa-database"></i> Databases</button></a>
+								<a href="#/goi-initiatives"><button type="button" class="btn btn-secondary btn-lg"><i class="fas fa-server"></i> GoI Initatives</button></a>
+								<a href="#/research-tools"><button type="button" class="btn btn-warning btn-lg"><i class="fas fa-graduation-cap"></i> Research Tools</button></a>
+								<a href="#/covid19-resources"><button type="button" class="btn btn-light btn-lg"><i class="fas fa-viruses"></i> COVID-19 Resources</button></a>
+								<a href="#/covid19-tracker"><button type="button" class="btn btn-dark btn-lg"><i class="fas fa-chart-line"></i> COVID-19 Tracker</button></a>
+							</div>
+						</div>
+					</div>
+					<div style="margin:1rem"></div>
+					<div class="container d-none d-md-block">
+						<div class="row">
+							<div class="col-md-12">
+			                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+			                        <small class="text-muted" style="text-align: center">
+			                            Due to the COVID-19, Library services and resources are available online.
+                                        <a href="#"><span class="badge badge-danger">#COVID19</span></a>
+                                        <a href="#"><span class="badge badge-warning">#StayAtHome</span></a>
+                                        <a href="#"><span class="badge badge-success">#BeSafe</span></a>
+                                        <a target="_blank" href="https://twitter.com/covidnewsbymib"><span class="badge badge-dark">#IndiaFightsCorona</span></a>
+                                        <a href="#/aarogya-setu-app"><span class="badge badge-info">#AarogyaSetu</span></a>
+                                        <a target="_blank" href="https://twitter.com/MoHFW_INDIA"><span class="badge badge-warning">#MoHFW</span></a>
+			                        </small>
+			                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									    <span aria-hidden="true">&times;</span>
+									</button>
+			                    </div>
+                			</div>
+                		</div>
+                	</div>
+				</section>
+				<section id="cuo-resources">
+					<h2 class="display-3" style="margin: 0; margin-top: 1rem;"><i class="fas fa-university"></i> CUO's Resources &amp; Services</h2>
+					<small class="text-muted">
+						Collections of all resources and services provided by the Central Library, CUO
+					</small>
+					<hr/>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<ul style="font-size: 24px !important; list-style-type: square;">
+                                    <li>
+                                        <strong class="text-light">Online textbooks:</strong> All physical borrowing facilty are suspended, but you can still access thousands of useful online <a class="exlink" href="#/e-books">eTextbooks</a>.
+                                    </li>
+                                    <li>
+                                        <strong class="text-light">Remote access for subscribed e-journals:</strong> You can access our subscribed e-resources <a class="exlink" target="_blank" href="https://www.emerald.com/insight/">Emerald Publishing</a>, <a class="exlink" target="_blank" href="http://www.tandfonline.com/">Taylor &amp; Francis</a>, and <a class="exlink" target="_blank" href="http://muse.jhu.edu/journals">Project MUSE</a> through <a class="exlink" target="_blank" href="https://idp.cuo.ac.in">Shibboleth Identity Provider</a>.
+                                    </li>
+                                    <li>
+                                        <strong class="text-light">Article requests:</strong> For required articles please mail us at <a class="exlink" href="mailto:library@cuo.ac.in">library@cuo.ac.in</a>.
+                                    </li>
+                                </ul>
+							</div>
+						</div>
+					</div>
+					<br/>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<a href="http://library.cuo.ac.in:8081/libguide/" target="_blank"><button type="button" class="btn btn-primary btn-lg">
+									<i class="fas fa-search-plus"></i> Subject/ Research Guide
+								</button></a>
+								<a href="http://14.139.212.94:8080/xmlui" target="_blank"><button type="button" class="btn btn-warning btn-lg"><i class="fas fa-external-link-alt"></i> IDR</button></a>
+								<a href="https://idp.cuo.ac.in/" target="_blank"><button type="button" class="btn btn-info btn-lg"><i class="fas fa-unlock-alt"></i> Off-Campus E-Resources</button></a>
+								<a href="http://library.cuo.ac.in:8081/newsclippings/" target="_blank"><button type="button" class="btn btn-success btn-lg"><i class="fas fa-map-pin"></i> News Clippings</button></a>
+								<a href="http://library.cuo.ac.in:8081/cyberlibrary/" target="_blank"><button type="button" class="btn btn-danger btn-lg"><i class="fab fa-cloudversify"></i> Cyber Library</button></a>
+								<a href="http://library.cuo.ac.in/xmlui" target="_blank"><button type="button" class="btn btn-dark btn-lg"><i class="fas fa-external-link-alt"></i> ETDs</button></a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="e-books">
+					<h2 class="display-3" style="margin: 0; margin-top: 1rem;"><i class="fas fa-book"></i> Free &amp; Open Access E-Books</h2>
+					<small class="text-muted">
+						Collections of eTextbooks that are open and freely accessible.
+					</small>
+					<hr/>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="alert alert-light" role="alert" >
+								  	<div class="overflow-auto text-left">
+								  		<ul style="list-style-type: square;">
+		  			                        <li>
+								  				<strong>Taylor &amp; Francis</strong><br/>
+                                        		<a target="_blank"  href="https://www.taylorfrancis.com/search?isFullAccessOnly=true">https://www.taylorfrancis.com/search?isFullAccessOnly=true</a>
+								  			</li>
+								  			<li>
+								  				<strong>Directory of Open Access Books(DOAB)</strong><br/>
+                                        		<a target="_blank" href="https://www.doabooks.org/">https://www.doabooks.org/</a>
+								  			</li>
+								  			<li>
+								  				<strong>Hathi Trust Digital Library</strong><br/>
+                                        		<a target="_blank" href="https://www.hathitrust.org/">https://www.hathitrust.org/</a>
+								  			</li>
+								  			<li>
+								  				<strong>ObOb</strong><br/>
+                                        		<a target="_blank" href="http://oaob.nitrkl.ac.in/">http://oaob.nitrkl.ac.in/</a>
+								  			</li>
+								  			<li>
+								  				<strong>Open Textbook Library</strong><br/>
+                                        		<a target="_blank" href="https://open.umn.edu/opentextbooks">https://open.umn.edu/opentextbooks</a>
+								  			</li>
+								  			<li>
+								  				<strong>Brills E-Books</strong><br/>
+                                        		<a target="_blank" href="https://brill.com/browse?access=open&level=parent&pageSize=10&sort=datedescending">https://brill.com/browse?access=open&level=parent&pageSize=10&sort=datedescending</a>
+								  			</li>
+								  			<li>
+								  				<strong>Springer eTextbooks</strong><br/>
+                                        		<a target="_blank" href="https://link.springer.com/search?facet-content-type=%22Book%22&package=openaccess&facet-language=%22En%22">https://link.springer.com/search?facet-content-type=%22Book%22&package=openaccess&facet-language=%22En%22</a>
+								  			</li>
+								  			<li>
+											    <strong>Project Gutenberg</strong><br/>
+											    <a target="_blank" href="https://www.gutenberg.org/">https://www.gutenberg.org/</a>
+											</li>
+											<li>
+											    <strong>Library Genesis</strong><br/>
+											    <a target="_blank" href="http://libgen.li/">http://libgen.li/</a>
+											</li>
+											<li>
+											    <strong>Free Book Spot</strong><br/>
+											    <a target="_blank" href="http://www.freebookspot.es/default.aspx">http://www.freebookspot.es/default.aspx</a>
+											</li>
+											<li>
+											    <strong>Bookboon</strong><br/>
+											    <a target="_blank" href="https://bookboon.com/">https://bookboon.com/</a>
+											</li>
+											<li>
+											    <strong>Free Educational Books & eBooks</strong><br/>
+											    <a target="_blank" href="https://www.free-ebooks.net/educational">https://www.free-ebooks.net/educational</a>
+											</li>
+											<li>
+											    <strong>Open Library</strong><br/>
+											    <a target="_blank" href="https://openlibrary.org/">https://openlibrary.org/</a>
+											</li>
+											<li>
+											    <strong>FreeTechBooks</strong><br/>
+											    <a target="_blank" href="https://www.freetechbooks.com/">https://www.freetechbooks.com/</a>
+											</li>
+											<li>
+											    <strong>Feedbooks</strong><br/>
+											    <a target="_blank" href="https://www.feedbooks.com/">https://www.feedbooks.com/</a>
+											</li>
+											<li>
+											    <strong>Getfreeebooks</strong><br/>
+											    <a target="_blank" href="https://www.getfreeebooks.com/">https://www.getfreeebooks.com/</a>
+											</li>
+											<li>
+											    <strong>Manybooks</strong><br/>
+											    <a target="_blank" href="https://manybooks.net/">https://manybooks.net/</a>
+											</li>
+											<li>
+											    <strong>LibriVox</strong><br/>
+											    <a target="_blank" href="https://librivox.org/">https://librivox.org/</a>
+											</li>
+                                            <li>
+											    <strong>Society for Natural Language Technology Research (SNLTR)</strong><br/>
+											    <a target="_blank" href="https://nltr.org/">https://nltr.org/</a>
+											</li>
+											<li>
+											    <strong>Amazon Free Kindle eBooks</strong><br/>
+											    <a target="_blank" href="https://www.amazon.in/Free-Kindle-eBooks-Store/b?ie=UTF8&node=1637304031">https://www.amazon.in/Free-Kindle-eBooks-Store/b?ie=UTF8&node=1637304031</a>
+											</li>
+											<li>
+											    <strong>PDF Drive</strong><br/>
+											    <a target="_blank" href="http://www.pdfdrive.com/">http://www.pdfdrive.com/</a>
+											</li>
+								  		</ul>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="e-journals">
+					<h2 class="display-3" style="margin: 0; margin-top: 1rem;"><i class="fas fa-newspaper"></i> Free &amp; Open Access E-Journals</h2>
+					<small class="text-muted">
+						Collections of e-resources and databases that are freely accessible.
+					</small>
+					<hr/>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="alert alert-light" role="alert" >
+								  	<div class="overflow-auto text-left">
+								  		<ul style="list-style-type: square;">
+								  			<li>
+											    <strong>Open Research Library</strong><br/>
+											    <a target="_blank" href="https://openresearchlibrary.org/">https://openresearchlibrary.org/</a>
+											</li>
+											<li>
+											    <strong>PubMed Central (A Free Archive of Life Sciences Journals)</strong><br/>
+											    <a target="_blank" href="http://www.pubmedcentral.nih.gov/">http://www.pubmedcentral.nih.gov/</a>
+											</li>
+											<li>
+											    <strong>Bioline International (Bioscience Journals)</strong><br/>
+											    <a target="_blank" href="http://www.bioline.org.br/">http://www.bioline.org.br/</a>
+											</li>
+											<li>
+											    <strong>Directory of Open Access Journals (DOAJ)</strong><br/>
+											    <a target="_blank" href="http://www.doaj.org/">http://www.doaj.org/</a>
+											</li>
+											<li>
+											    <strong>Electronic Journals Library (8000+ Journals)</strong><br/>
+											    <a target="_blank" href="http://rzblx1.uni-regensburg.de/ezeit/fl.phtml?bibid=AAAAA&colors=1&lang=en">http://rzblx1.uni-regensburg.de/ezeit/fl.phtml?bibid=AAAAA&colors=1&lang=en</a>
+											</li>
+                                            <li>
+                                                <strong>Open Knowledge Repository- World Bank</strong><br/>
+                                                <a target="_blank" href="https://openknowledge.worldbank.org/">https://openknowledge.worldbank.org/</a>
+                                            </li>
+                                            <li>
+                                                <strong>Oxford Open</strong><br/>
+                                                <a target="_blank" href="https://academic.oup.com/journals/pages/open_access">https://academic.oup.com/journals/pages/open_access</a>
+                                            </li>
+                                            <li>
+                                                <strong>Science Direct Open Access Content</strong><br/>
+                                                <a target="_blank" href="https://www.sciencedirect.com/browse/journals-and-books?accessType=openAccess">https://www.sciencedirect.com/browse/journals-and-books?accessType=openAccess</a>
+                                            </li>
+                                            <li>
+                                                <strong>Project Euclid</strong><br/>
+                                                <a target="_blank" href="https://projecteuclid.org/librarians/lib_oa">https://projecteuclid.org/librarians/lib_oa</a>
+                                            </li>
+                                            <li>
+                                                <strong>Springer Open Journals</strong><br/>
+                                                <a target="_blank" href="https://www.springeropen.com/journals-a-z">https://www.springeropen.com/journals-a-z</a>
+                                            </li>
+                                            <li>
+                                                <strong>Open Access Thesis &amp; Dissertations</strong><br/>
+                                                <a target="_blank" href="https://oatd.org/">https://oatd.org/</a>
+                                            </li>
+                                            <li>
+                                                <strong>The OAPEN Foundation</strong><br/>
+                                                <a target="_blank" href="https://oapen.org/content/">https://oapen.org/content/</a>
+                                            </li>
+                                            <li>
+                                                <strong>Southern Connecticut State Unlversity</strong><br/>
+                                                <a target="_blank" href="https://libguides.southernct.edu/openaccess/">https://libguides.southernct.edu/openaccess/</a>
+                                            </li>
+                                            
+											<li>
+											    <strong>Free Full-Text Journals in Chemistry</strong><br/>
+											    <a target="_blank" href="http://www.abc.chemistry.bsu.by/current/fulltext.htm">http://www.abc.chemistry.bsu.by/current/fulltext.htm</a>
+											</li>
+											<li>
+											    <strong>Free Medical Journals</strong><br/>
+											    <a target="_blank" href="http://www.freemedicaljournals.com/">http://www.freemedicaljournals.com/</a>
+											</li>
+											<li>
+											    <strong>UNESCO Social &amp; Human Sciences Online Periodicals (700)</strong><br/>
+											    <a target="_blank" href="http://www.unesco.org/new/en/social-and-human-sciences/resources/online-materials/publications/unesdoc-shs/">http://www.unesco.org/new/en/social-and-human-sciences/resources/online-materials/publications/unesdoc-shs/</a>
+											</li>
+											<li>
+											    <strong>American Institute of Physics (Scitation):</strong>
+											    <ul>
+											        <li>Free Access to Registered Users on Scitation.</li>
+											        <li>Scientists and students in affected regions can now register on Scitation.org to activate temporary free full-text access to content through April 30, 2020.</li>
+											    </ul>
+											    For more info please visit at <a target="_blank" href="https://www.scitation.org/remote-access">https://www.scitation.org/remote-access</a>
+											</li>
+											<li>
+											    <strong>ACM Digital Library:</strong> 
+											    <ul>
+											        <li>Open Access to ACM Digital Library During Coronavirus Pandemic.</li>
+											        <li>Till June 30, 2020, there will be no fees assessed for accessing or downloading work published by ACM.</li>
+											    </ul>
+											    For more info please visit at <a target="_blank" href="https://www.acm.org/articles/bulletins/2020/march/dl-access-during-covid-19">https://www.acm.org/articles/bulletins/2020/march/dl-access-during-covid-19</a>
+											</li>
+											<li>
+											    <strong>Annual Reviews:</strong> 
+											    <ul>
+											        <li>All articles published by Annual Reviews are currently available freely till 30th April 2020.</li>
+											    </ul>
+											    For more info please visit at <a target="_blank" href="https://annualreviewsnews.org/2020/03/13/annual-reviews-removes-access-control-in-response-to-covid-19-pandemic/">https://annualreviewsnews.org/2020/03/13/annual-reviews-removes-access-control-in-response-to-covid-19-pandemic/</a>
+											</li>
+											<li>
+											    <strong>Cambridge University Press:</strong><br/>
+                                                <a target="_blank" href="https://www.cambridge.org/core/what-we-publish/open-access">https://www.cambridge.org/core/what-we-publish/open-access</a> 
+											    <ul>
+											        <li>Free access to a collection of over 1,700 ebooks hosted on Cambridge Core, for university libraries and their associated students and faculty till end of May 2020.</li>
+											    </ul>
+											    For more info please visit at <a target="_blank" href="https://www.cambridge.org/gb/academic/covid-19-resources-and-information">https://www.cambridge.org/gb/academic/covid-19-resources-and-information</a>
+											</li>
+											<li>
+											    <strong>JSTOR Archives:</strong> JSTOR and its participating publishers are making an expanded set of content freely available to our participating institutions where students have been displaced due to COVID-19.
+											    <ul>
+											        <li>Access to unlicensed collections at no cost for participating academic institutions that currently license some, but not all, JSTOR Archive and Primary Source collections.</li>
+											        <li>More than 35,000 books available at no charge for JSTOR participating academic institutions and secondary schools. The number of books available through this effort is growing daily as more publishers opt in.</li>
+											    </ul>
+											    For more info please visit at <a target="_blank" href="https://about.jstor.org/covid19/?utm_source=jstor&utm_medium=display&utm_campaign=dsp_jstor_home_right_covid19_03_2020">JSTOR COVID-19 Campaign</a>
+											</li>
+											<li>
+											    <strong>Proquest Database:</strong> Coronavirus Research Database, giving all ProQuest users no-cost access to full-text content covering all facets of COVID-19 and related infectious diseases.
+											    <ul>
+											        <li>Users can access the database at <a target="_blank" href="https://search.proquest.com/coronavirus">https://search.proquest.com/coronavirus</a></li>
+											    </ul>
+											    For more info please visit at <a target="_blank" href="https://proquest.libguides.com/covid19">https://proquest.libguides.com/covid19</a>
+											</li>
+											<li>
+											    <strong>SIAM (Society for Industrial and Applied Mathematics):</strong> Related research articles from Springer Nature journals, as well as additional commentary on this topic and relevant books are accessible freely.
+											    <ul>
+											        <li>The SIAM Epidemiology Collection, focused on disease modeling, pandemics, and vaccines, is freely available to all for one year:
+											            <a target="_blank" href="https://epubs.siam.org/page/EpidemiologyCollection">https://epubs.siam.org/page/EpidemiologyCollection</a>
+											        </li>
+											        <li>SIAM Journal on Mathematics of Data Science (epubs.siam.org/simods) continues to be freely available this year during its introductory launch period.</li>
+											    </ul>
+											    For more info please visit at <a target="_blank" href="https://sinews.siam.org/Details-Page/covid19">https://sinews.siam.org/Details-Page/covid19</a>
+											</li>
+											<li>
+											    <strong>Springer-Nature:</strong> Related research articles from Springer Nature journals, as well as additional commentary on this topic and relevant books are accessible freely.
+											    For more info please visit at <a target="_blank" href="https://www.springernature.com/gp/researchers/campaigns/coronavirus">https://www.springernature.com/gp/researchers/campaigns/coronavirus</a>
+											    <br/><br/>
+											    Free access to a range of essential textbooks from all disciplines. Under this initiative, Institutions will be able to access more than 500 key textbooks across Springer Nature’s eBook subject collections for free. 
+											    <br/>
+											    For more info please visit at <a target="_blank" href="https://www.springernature.com/gp/librarians/news-events/all-news-articles/industry-news-initiatives/free-access-to-textbooks-for-institutions-affected-by-coronaviru/17855960">https://www.springernature.com/gp/librarians/news-events/all-news-articles/industry-news-initiatives/free-access-to-textbooks-for-institutions-affected-by-coronaviru/17855960</a>
+											</li>
+								  		</ul>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+
+				</section>
+				<section id="online-courseware">
+					<h2 class="display-3" style="margin: 0; margin-top: 1rem;"><i class="fas fa-globe-asia"></i> Onine Courseware</h2>
+					<small class="text-muted">
+						Here you can find the courseware available for enroll for free.
+					</small>
+					<hr/>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="alert alert-light" role="alert">
+								  	<div class="overflow-auto text-left">
+								  		<button type="button" class="btn btn-primary btn-lg"><i class="fas fa-external-link-alt"></i> <a href="https://ocw.mit.edu/index.htm" target="_blank">MIT OpenCourseWare</a></button>
+										<button type="button" class="btn btn-dark btn-lg"><i class="fas fa-external-link-alt"></i> <a href="https://nptel.ac.in/" target="_blank">NPTEL Online Courses</a></button>
+										<button type="button" class="btn btn-danger btn-lg"><i class="fas fa-external-link-alt"></i> <a href="https://www.saylor.org/" target="_blank">Saylor Academy</a></button>
+										<button type="button" class="btn btn-info btn-lg"><i class="fas fa-external-link-alt"></i> <a href="https://www.coursera.org/" target="_blank">Coursera</a></button>
+										<button type="button" class="btn btn-warning btn-lg"><i class="fas fa-external-link-alt"></i> <a href="http://free.aicte-india.org/" target="_blank">AICTE Online Courses</a></button>
+										<button type="button" class="btn btn-success btn-lg"><i class="fas fa-external-link-alt"></i> <a href="https://www.mooc.org/" target="_blank">MOOCs Courses</a></button>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="databases">
+					<h2 class="display-3" style="margin: 0; margin-top: 1rem;"><i class="fas fa-database"></i> Credible Databases</h2>
+					<small class="text-muted">
+						Useful databases to search and identify the papers of your subject interest.
+					</small>
+					<hr/>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="alert alert-light" role="alert">
+								  	<div class="overflow-auto text-left">
+										<ul style="list-style-type: square;">
+                                            <li>
+												<strong>ScienceDirect</strong><br/>
+											    <a target="_blank" href="www.sciencedirect.com">www.sciencedirect.com</a>
+											</li>
+											<li>
+												<strong>IEEE Xplore</strong><br/>
+											    <a target="_blank" href="www.ieeexplore.ieee.org">www.ieeexplore.ieee.org</a>
+											</li>
+											<li>
+												<strong>Springer Link</strong><br/>
+											    <a target="_blank" href="www.link.springer.com">www.link.springer.com</a>
+											</li>
+											<li>
+												<strong>ACM Digital Library</strong><br/>
+											    <a target="_blank" href="https://dl.acm.org/">https://dl.acm.org/</a>
+											</li>
+											<li>
+												<strong>Taylor &amp; Francis Open Access</strong><br/>
+											    <a target="_blank" href="https://www.tandfonline.com/openaccess">https://www.tandfonline.com/openaccess</a>
+											</li>
+											<li>
+												<strong>AISE Library</strong><br/>
+											    <a target="_blank" href="www.ascelibrary.org">www.ascelibrary.org</a>
+											</li>
+											<li>
+												<strong>ASME Digital Collection</strong><br/>
+											    <a target="_blank" href="www.asmedigitalcollection.asme.org">www.asmedigitalcollection.asme.org</a>
+											</li>
+                                            <li>
+                                                <strong>AGRIS</strong><br/>
+                                                <a target="_blank" href="http://agris.fao.org/agris-search/index.do">http://agris.fao.org/agris-search/index.do</a>
+                                            </li>
+                                            <li>
+                                                <strong>ILOSTAT</strong><br/>
+                                                <a target="_blank" href="https://ilostat.ilo.org/">https://ilostat.ilo.org/</a>
+                                            </li>
+										</ul>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="research-tools">
+					<h2 class="display-3" style="margin: 0; margin-top: 1rem;"><i class="fas fa-graduation-cap"></i> Research &amp; Academic Tools</h2>
+					<small class="text-muted">
+						Useful for create profiles for research support and academic visibility.
+					</small>
+					<hr/>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="alert alert-light" role="alert">
+								  	<div class="overflow-auto text-left">
+										<ul style="list-style-type: square;">
+											<li>
+												<strong>Mendeley</strong><br/>
+											    <a target="_blank" href="https://www.mendeley.com/">https://www.mendeley.com/</a>
+											</li>
+                                            <li>
+												<strong>Zotero</strong><br/>
+											    <a target="_blank" href="https://www.zotero.org/">https://www.zotero.org/</a>
+											</li>
+                                            <li>
+												<strong>ZoteroBib</strong><br/>
+											    <a target="_blank" href="https://zbib.org/">https://zbib.org/</a>
+											</li>
+                                            <li>
+												<strong>Grammarly</strong><br/>
+											    <a target="_blank" href="https://www.grammarly.com/">https://www.grammarly.com/</a>
+											</li>
+                                            <li>
+												<strong>LanguageTool</strong><br/>
+											    <a target="_blank" href="https://languagetool.org/">https://languagetool.org/</a>
+											</li>
+                                            <li>
+												<strong>Quillbot</strong><br/>
+											    <a target="_blank" href="https://quillbot.com/">https://quillbot.com/</a>
+											</li>
+											<li>
+												<strong>Vidwan</strong><br/>
+											    <a target="_blank" href="https://vidwan.inflibnet.ac.in/">https://vidwan.inflibnet.ac.in/</a>
+											</li>
+                                            <li>
+												<strong>Web of Science</strong><br/>
+											    <a target="_blank" href="https://login.webofknowledge.com/">https://login.webofknowledge.com/</a>
+											</li>
+                                            <li>
+												<strong>EasyBib</strong><br/>
+											    <a target="_blank" href="https://www.easybib.com/">https://www.easybib.com/</a>
+											</li>
+                                            <li>
+												<strong>OttoBib</strong><br/>
+											    <a target="_blank" href="http://www.ottobib.com/">http://www.ottobib.com/</a>
+											</li>
+                                            <li>
+												<strong>Citethisforme.com</strong><br/>
+											    <a target="_blank" href="https://www.citethisforme.com/">https://www.citethisforme.com/</a>
+											</li>
+                                            <li>
+												<strong>NoodleTools</strong><br/>
+											    <a target="_blank" href="http://www.noodletools.com/">http://www.noodletools.com/</a>
+											</li>
+                                            <li>
+												<strong>KnightCite</strong><br/>
+											    <a target="_blank" href="http://www.calvin.edu/library/knightcite/?">http://www.calvin.edu/library/knightcite/?</a>
+											</li>
+                                            <li>
+												<strong>Qiqqa</strong><br/>
+											    <a target="_blank" href="http://www.qiqqa.com/">http://www.qiqqa.com/</a>
+											</li>
+											<li>
+												<strong>ORCiD</strong><br/>
+											    <a target="_blank" href="https://orcid.org/">https://orcid.org/</a>
+											</li>
+											<li>
+												<strong>Scopus Preview</strong><br/>
+											    <a target="_blank" href="https://www.scopus.com/freelookup/form/author.uri">https://www.scopus.com/freelookup/form/author.uri</a>
+											</li>
+											<li>
+												<strong>Google Scholar</strong><br/>
+											    <a target="_blank" href="https://scholar.google.com/">https://scholar.google.com/</a>
+											</li>
+											<li>
+												<strong>ResearchGate</strong><br/>
+											    <a target="_blank" href="https://www.researchgate.net/">https://www.researchgate.net/</a>
+											</li>
+										</ul>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="goi-initiatives">
+					<h2 class="display-3" style="margin: 0; margin-top: 1rem;"><i class="fas fa-server"></i> GoI Initaitives</h2>
+					<small class="text-muted">
+						Collections of all services provided by MHRD, GoI.
+					</small>
+					<hr/>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="alert alert-light" role="alert" >
+								  	<div class="overflow-auto text-left">
+								  		<ul style="list-style-type: square;">
+								  			<li>
+											    <strong>National Digital Library of India</strong><br/>
+											    <a target="_blank" href="https://ndl.iitkgp.ac.in/">https://ndl.iitkgp.ac.in/</a>
+											</li>
+											<li>
+											    <strong>SWAYAM</strong><br/>
+											    <a target="_blank" href="https://swayam.gov.in/">https://swayam.gov.in/</a>
+											</li>
+											<li>
+											    <strong>National Knowlwdge Network</strong><br/>
+											    <a target="_blank" href="http://nkn.gov.in/">http://nkn.gov.in/</a>
+											</li>
+											<li>
+											    <strong>National Programme on Technology Enhanced Learning (NPTEL)</strong><br/>
+											    <a target="_blank" href="https://nptel.ac.in/">https://nptel.ac.in/</a>
+											</li>
+
+											<li>
+											    <strong>InfoPort</strong><br/>
+											    <a target="_blank" href="https://infoport.inflibnet.ac.in/">https://infoport.inflibnet.ac.in/</a>
+											</li>
+											<li>
+											    <strong>A-VIEW</strong><br/>
+											    <a target="_blank" href="http://aview.in/">http://aview.in/</a>
+											</li>
+											<li>
+											    <strong>Virtual Labs</strong><br/>
+											    <a target="_blank" href="http://www.vlab.co.in/">http://www.vlab.co.in/</a>
+											</li>
+											<li>
+											    <strong>FOSSEE</strong><br/>
+											    <a target="_blank" href="https://fossee.in/">https://fossee.in/</a>
+											</li>
+											<li>
+											    <strong>Spoken Tutorial</strong><br/>
+											    <a target="_blank" href="https://spoken-tutorial.org/">https://spoken-tutorial.org/</a>
+											</li>
+											<li>
+											    <strong>e-Yantra</strong><br/>
+											    <a target="_blank" href="https://www.e-yantra.org/">https://www.e-yantra.org/</a>
+											</li>
+											<li>
+											    <strong>Oscar++</strong><br/>
+											    <a target="_blank" href="https://www.it.iitb.ac.in/oscar/">https://www.it.iitb.ac.in/oscar/</a>
+											</li>
+											<li>
+											    <strong>E-Kalpa</strong><br/>
+											    <a target="_blank" href="https://icar.org.in/content/e-kalpa">https://icar.org.in/content/e-kalpa</a>
+											</li>
+											<li>
+											    <strong>UG/PG MOOCs</strong><br/>
+											    <a target="_blank" href="http://ugcmoocs.inflibnet.ac.in/ugcmoocs/">http://ugcmoocs.inflibnet.ac.in/ugcmoocs/</a>
+											</li>
+											<li>
+											    <strong>e-PG Pathshala</strong><br/>
+											    <a target="_blank" href="https://epgp.inflibnet.ac.in">https://epgp.inflibnet.ac.in</a>
+											</li>
+											<li>
+											    <strong>e-Content courseware in UG subjects</strong><br/>
+											    <a target="_blank" href="http://cec.nic.in/cec/">http://cec.nic.in/cec/</a>
+											</li>
+											<li>
+											    <strong>SWAYAMPRABHA</strong><br/>
+											    <a target="_blank" href="https://www.swayamprabha.gov.in">https://www.swayamprabha.gov.in</a>
+											</li>
+											<li>
+											    <strong>e-Shodh Sindhu</strong><br/>
+											    <a target="_blank" href="https://ess.inflibnet.ac.in">https://ess.inflibnet.ac.in</a>
+											</li>
+											<li>
+											    <strong>Shodhganga : a reservoir of Indian theses</strong><br/>
+											    <a target="_blank" href="https://shodhganga.inflibnet.ac.in/">https://shodhganga.inflibnet.ac.in/</a>
+											</li>
+								  		</ul>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="covid19-resources">
+					<h2 class="display-3" style="margin: 0; margin-top: 1rem;"><i class="fas fa-viruses"></i> COVID-19 Resources</h2>
+					<small class="text-muted">
+						Collections of CoviD-19 freely accessible resources for reserach purpose.
+					</small>
+					<hr/>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="alert alert-light" role="alert" >
+								  	<div class="overflow-auto text-left">
+								  		<ul style="list-style-type: square;">					  			
+											<li>
+											    <strong>Elsevier</strong><br/>
+											    <a target="_blank" href="https://www.elsevier.com/novel-coronavirus-covid-19">https://www.elsevier.com/novel-coronavirus-covid-19</a>
+											</li>
+											<li>
+											    <strong>Web of Science (Clarivate)</strong><br/>
+											    <a target="_blank" href="https://clarivate.com/webofsciencegroup/article/covid-19-scientific-innovation-will-help-us-beat-this-virus/">https://clarivate.com/webofsciencegroup/article/covid-19-scientific-innovation-will-help-us-beat-this-virus/</a>
+											</li>
+											<li>
+											    <strong>Taylor &amp; Francis</strong><br/>
+											    <a target="_blank" href="https://librarianresources.taylorandfrancis.com/covid-19-resources-and-support-for-you/#">https://librarianresources.taylorandfrancis.com/covid-19-resources-and-support-for-you/#</a>
+											</li>
+											<li>
+											    <strong>Springer Nature</strong><br/>
+											    <a target="_blank" href="https://www.springernature.com/gp">https://www.springernature.com/gp</a>
+											</li>
+											<li>
+											    <strong>JSTOR</strong><br/>
+											    <a target="_blank" href="https://about.jstor.org/covid19/">https://about.jstor.org/covid19/</a>
+											</li>
+											<li>
+											    <strong>Oxford University Press COVID-19 Resources</strong><br/>
+											    <ul>
+											        <li>
+											            <a target="_blank" href="https://oxforduniversitypress.newsweaver.com/rep-newsletter/oib449e6uc3eqwx10piueu/external?email=true&a=5&p=5042491&t=815134">COVID-19 Free Resources Hub</a>
+											        </li>
+											        <li>
+											            The <a target="_blank" href="https://oxforduniversitypress.newsweaver.com/rep-newsletter/1fwu89zbpeseqwx10piueu/external?email=true&a=5&p=5042491&t=815134">Oxford Handbook of Public Health Ethics</a> has been made freely available for anyone to access.
+											        </li>
+											        <li>
+											            <a target="_blank" href="https://oxforduniversitypress.newsweaver.com/rep-newsletter/yvkyzv2bsioeqwx10piueu/external?email=true&a=5&p=5042491&t=815134">Epigeum online training programs, Teaching Online and Blended Learning</a>
+											        </li>
+											        <li>
+											            Music Education Resources from Oxford Scholarship Online
+											            <ul>
+											                <li><a target="_blank" href="https://oxforduniversitypress.newsweaver.com/rep-newsletter/47qjer8w9bseqwx10piueu/external?email=true&a=5&p=5042491&t=815134">Online Learning in Music: Foundations, Frameworks, and Practices</a></li>
+											                <li><a target="_blank" href="https://oxforduniversitypress.newsweaver.com/rep-newsletter/i6senp01je5eqwx10piueu/external?email=true&a=5&p=5042491&t=815134">Teaching Music Appreciation Online</a></li>
+											            </ul>
+											        </li>
+											    </ul>
+											</li>
+								  		</ul>
+								  		<hr/>
+								  		<small class="text-muted" style="font-size: medium">
+										    For more information on COVID-19, you can follow official twitter handle <span class="badge badge-danger"><a target="_blank" href="https://twitter.com/CovidIndiaSeva">@CovidIndiaSeva</a></span> of  <span class="badge badge-info"><a target="_blank" href="https://twitter.com/MoHFW_INDIA">@MoHFW_INDIA</a></span>
+										</small>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="useful-tools">
+					<h2 class="display-3" style="margin: 0; margin-top: 1rem;"><i class="fas fa-tools"></i> Useful Tools &amp; Softwares</h2>
+					<small class="text-muted">
+						Here you can find all the useful tools, you can use in this COVID-19 pandemic situation.
+					</small>
+					<hr/>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="alert alert-light" role="alert" >
+								  	<div class="overflow-auto text-left">
+								  		<ul style="list-style-type: square;">
+								  			<li>
+											    <strong>Free Video Conferencing Tools</strong><br/>
+											    <ul>
+											        <li>
+											            <strong>Google Meet</strong><br/>
+											            <a target="_blank" href="https://meet.google.com/">https://meet.google.com/</a>
+											        </li>
+											        <li>
+											            <strong>Skype</strong><br/>
+											            <a target="_blank" href="https://www.skype.com/en/">https://www.skype.com/en/</a>
+											        </li>
+											        <li>
+											            <strong>Lark</strong><br/>
+											            <a target="_blank" href="https://www.larksuite.com/product/video">https://www.larksuite.com/product/video</a>
+											        </li>
+											        <li>
+											            <strong>Jitsi</strong><br/>
+											            <a target="_blank" href="https://jitsi.org/">https://jitsi.org/</a>
+											        </li>
+											        <li>
+											            <strong>GoToMeeting </strong><br/>
+											            <a target="_blank" href="https://www.gotomeeting.com/en-in">https://www.gotomeeting.com/en-in</a>
+											        </li>
+											    </ul>
+											</li>
+											<li>
+											    <strong>Others Useful Websites &amp; Applications</strong><br/>
+											    <ul>
+											        <li>
+											            <strong>Google Classroom</strong><br/>
+											            <a target="_blank" href="https://classroom.google.com/">https://classroom.google.com/</a>
+											        </li>
+											        <li>
+											            <strong>NextCloud (Alternative to Google Drive)</strong><br/>
+											            <a target="_blank" href="https://nextcloud.com/">https://nextcloud.com/</a>
+											        </li>
+											        <li>
+											            <strong>Crypt Pad (Alternative to Google Docs)</strong><br/>
+											            <a target="_blank" href="https://cryptpad.fr/">https://cryptpad.fr/</a>
+											        </li>
+											        <li>
+											            <strong>LimeSurvey (Alternative to Google Form)</strong><br/>
+											            <a target="_blank" href="https://www.limesurvey.org/">https://www.limesurvey.org/</a>
+											        </li>
+											        <li>
+											            <strong>LibreOffice (Alternative to Microsoft Office)</strong><br/>
+											            <a target="_blank" href="https://www.libreoffice.org/">https://www.libreoffice.org/</a>
+											        </li>
+											        <li>
+											            <strong>OnlyOffice (Alternative to Microsoft Office)</strong><br/>
+											            <a target="_blank" href="https://www.onlyoffice.com/">https://www.onlyoffice.com/</a>
+											        </li>
+											        <li>
+											            <strong>GIMP (Alternative to Photoshop)</strong><br/>
+											            <a target="_blank" href="https://www.gimp.org/">https://www.gimp.org/</a>
+											        </li>
+											        <li>
+											            <strong>Krita (Alternative to Photoshop)</strong><br/>
+											            <a target="_blank" href="https://krita.org/en/">https://krita.org/en/</a>
+											        </li>
+											    </ul>
+											</li>
+								  		</ul>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="covid19-tracker">
+					<h2 class="display-3" style="margin: 0; margin-top: 1rem;"><i class="fas fa-chart-line"></i> COVID-19 Tracker<sup><span class="badge badge-primary">beta</span></sup></h2>
+					<small class="text-muted">
+						COVID-19 statistics in India has been collected using <a target="_blank" href="https://api.covid19india.org/">https://api.covid19india.org/</a> API.
+					</small>
+					<hr/>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<div id="covid19-app" v-cloak>
+
+									<div class="actions" style="opacity: 1; transform: perspective(600px) rotateX(0deg);">
+										<h6 style="transform: translate3d(0px, 0px, 0px); opacity: 1;">{{moment().format('LLLL')}}</h6>
+									</div>
+
+									<div class="covid19-stats" v-if="!loading">
+										<div class="covid19-stats-item is-confirmed" style="transform: translate3d(0px, 0px, 0px); opacity: 1;">
+											<h5 style="font-size: small;">Confirmed</h5>
+											<h4 style="font-size: medium;">+{{Number(stats.dailyconfirmed).toLocaleString()}}</h4>
+											<h1 style="font-size: 24px;">{{Number(statedata.confirmed).toLocaleString()}}</h1>
+										</div>
+										<div class="covid19-stats-item is-active" style="transform: translate3d(0px, 0px, 0px); opacity: 1;">
+											<h5 style="font-size: small;">Active</h5>
+											<h4 style="font-size: medium;">&nbsp;</h4>
+											<h1 style="font-size: 24px;">{{Number(statedata.active).toLocaleString()}}</h1>
+										</div>
+										<div class="covid19-stats-item is-recovered" style="transform: translate3d(0px, 0px, 0px); opacity: 1;">
+											<h5 style="font-size: small;">Recovered</h5>
+											<h4 style="font-size: medium;">+{{Number(stats.dailyrecovered).toLocaleString()}}</h4>
+											<h1 style="font-size: 24px;">{{Number(statedata.recovered).toLocaleString()}}</h1>
+										</div>
+										<div class="covid19-stats-item is-deceased" style="transform: translate3d(0px, 0px, 0px); opacity: 1;">
+											<h5 style="font-size: small;">Deceased</h5>
+											<h4 style="font-size: medium;">+{{Number(stats.dailydeceased).toLocaleString()}}</h4>
+											<h1 style="font-size: 24px;">{{Number(statedata.deaths).toLocaleString()}}</h1>
+										</div>
+									</div>
+                                    <p style="font-size: medium; margin-top: 25vh;"><i class="fas fa-info-circle"></i> Please note that the above data is not official and might be different from the actual data.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+                <section id="aarogya-setu-app">
+					<h2 class="display-3" style="margin: 0; margin-top: 1rem;"><img src="assets/images/aarogya-setu-logo.png" class="img-responsive" 
+                                                                                    style="width:80px; background: none; box-shadow: none; margin: 0;" /> Aarogya Setu App</h2>
+					<small class="text-muted">
+                        Use Aarogya Setu App to fight against <strong>Novel Coronavirus</strong>.
+					</small>
+					<hr/>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+                                <div class="alert alert-light" role="alert" >
+								  	<div class="overflow-auto text-left">
+                                        <div class="aarogya-setu-container">
+                                            <div class="item">
+                                                <img src="assets/images/ar_app.png"/>
+                                                <p style="font-size: medium">An app that speaks your language</p>
+                                                <a target="_blank" href="https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu"><img src="assets/images/gplay_icon.png"/></a>
+                                                <a target="_blank" href="https://apps.apple.com/in/app/aarogyasetu/id1505825357"><img src="assets/images/app_store_icon.png"/></a>
+                                            </div>
+                                            <div class="item">
+                                                <img src="assets/images/ar_qr.jpg"/>
+                                                <p style="font-size: medium">Available in 11 different languages</p>
+                                                <p style="font-size: large; color: #05496a">Scan to Download</p>
+                                                <p style="color: #282D73; margin-bottom: 0;"><strong>Aarogya Setu</strong></p>
+                                                <p style="font-size: medium; color: #282D73; margin: 0;">मैं सुरक्षित |  हम सुरक्षित | भारत सुरक्षित</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- end content -->
+			</div>
+		</div>
+		<script src="assets/js/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: false,
+				hash: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+				dependencies: [
+					{ src: 'assets/plugin/markdown/marked.js' },
+					{ src: 'assets/plugin/markdown/markdown.js' },
+					{ src: 'assets/plugin/highlight/highlight.js' },
+					{ src: 'assets/plugin/notes/notes.js', async: true },
+					{ src: 'assets/plugin/menu/menu.js' },
+				]
+			});
+		</script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+		<script type="text/javascript">
+			var app = new Vue({
+			  el: '#covid19-app',
+			  data() {
+			    return{
+			    	stats: [],
+			    	statedata:[],
+			    	loading: true,
+      				errored: false
+			    }
+			  },
+			  mounted () {
+				    axios
+				      .get('https://api.covid19india.org/data.json')
+				      .then(response => {
+				      	this.stats = response.data.cases_time_series[response.data.cases_time_series.length-1]
+				      	this.statedata = response.data.statewise[0]
+				      })
+				      .catch(error => {
+				        console.log(error)
+				        this.errored = true
+				      })
+				      .finally(() => this.loading = false)
+				  }
+			})
+		</script>
+	</body>
+</html>
